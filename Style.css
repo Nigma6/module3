@@ -1,0 +1,208 @@
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+div {
+
+padding: 20px;
+margin-bottom: 30px;
+}
+
+#panini {
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+ #title1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    text-align: center;
+    right: -85%;
+    background-color: #D59898;
+    border: 1px solid black;
+}
+
+ #title2 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    color: #FFFFFF;
+    text-align: center;
+    right: -85%;
+    background-color: #C14543;
+    border: 1px solid black;
+}
+
+ #title3 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 21%;
+    text-align: center;
+    right: -85%;
+    background-color: #E5D198;
+    border: 1px solid black;
+}
+
+#paniniN {
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+#paniniM {
+    background-color: #999999;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+
+@media (min-width: 10px) and (max-width: 767px) {
+
+    #panini #title1 {
+        width: 40%;
+        right: -70%;
+    }
+
+    #panini #title2 {
+        width: 40%;
+        right: -70%;
+    }
+
+    #panini #title3 {
+        width: 20%;
+        right: -84%;
+    }
+}
+
+
+@media (min-width: 768px)  and (max-width: 1199px) {
+
+   #panini {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    left: 220px;
+    top: 33px ;
+
+
+
+}
+
+#title1 {
+
+    width: 10%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+#paniniN {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    left:220px;
+    top:50px;
+}
+
+#title2 {
+
+    width: 10%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+   
+}
+
+#paniniM {
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    float: left;
+    top: 73px;
+    left: 220px;
+}
+
+#title3 {
+
+width: 10%;
+padding: 10px 20px 10px 20px;
+border: 2px solid black;
+position: relative;
+
+
+}
+}
+
+@media (min-width:1200px) {
+
+#panini {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    top:53px ;
+
+
+
+}
+
+#title1 {
+
+    width: 7%;
+   padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+#paniniN {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    left:470px;
+    top:-160px;
+}
+
+#title2 {
+
+    width: 7%;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    position: relative;
+   
+}
+
+#paniniM {
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    top: -373px;
+}
+
+#title3 {
+
+width: 7%;
+padding: 10px 20px 10px 20px;
+border: 2px solid black;
+position: relative;
+
+
+}
+}
